@@ -114,6 +114,10 @@ virtualenvという仮想環境を作成するツールを利用し、このチ�
 
 <https://drive.google.com/a/ishiilab.net/file/d/0ByTX-9viSBPLU3JHOFFvc3ZMSVU/view?usp=sharing>
 
+githubのリポジトリからのDLも出来ます。その際は必要なファイルが全て手に入ります。
+
+- <https://github.com/hrsano645/ishiilab_python_tutorial/archive/master.zip>
+
 ダウンロードしたフォルダ内にある、すべてのファイルを用意した仮想環境のフォルダ（例では `ishiilab_python_tutorial` ）へコピーして下さい。
 
 すべてのOSで、virtualenvの仮想環境が動作している状態で、`pip` コマンドを利用してパッケージをインストールします。
