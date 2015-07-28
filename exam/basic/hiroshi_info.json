@@ -1,0 +1,8 @@
+{
+    "name":"hiroshi",
+    "age":29,
+    "organization":["sano-design", "Tokai University Ishii labolatory"],
+    "like":{
+        "food":["kare-","ra-men","korokke","niku"]
+    }
+}
