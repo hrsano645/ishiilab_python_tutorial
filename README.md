@@ -101,7 +101,7 @@ Linuxは各ディストリビューションのパッケージ管理システム
 ```
 ~$ mkdir ishiilab_python_tutorial
 ~$ cd ishiilab_python_tutorial
-~/ishiilab_python_tutorial$ python -m virtualenv ./
+~/ishiilab_python_tutorial$ python3 -m virtualenv ./
 .~/ishiilab_python_tutorial$ ./bin/activate # 仮想環境が利用できます。
 (ishiilab_python_tutorial) ~/ishiilab_python_tutorial$
 ```
@@ -110,17 +110,13 @@ Linuxは各ディストリビューションのパッケージ管理システム
 
 virtualenvという仮想環境を作成するツールを利用し、このチュートリアル用の仮想環境上に、ipython notebookや課題で利用するパッケージをインストールします。
 
-以下のURLからファイル: `requirements.txt` をダウンロードして下さい。
-
-<https://drive.google.com/a/ishiilab.net/file/d/0ByTX-9viSBPLU3JHOFFvc3ZMSVU/view?usp=sharing>
-
-githubのリポジトリからのDLも出来ます。その際は必要なファイルが全て手に入ります。
+以下のURLから、チュートリアルに必要なファイルをダウンロードします。
 
 - <https://github.com/hrsano645/ishiilab_python_tutorial/archive/master.zip>
 
 ダウンロードしたフォルダ内にある、すべてのファイルを用意した仮想環境のフォルダ（例では `ishiilab_python_tutorial` ）へコピーして下さい。
 
-すべてのOSで、virtualenvの仮想環境が動作している状態で、`pip` コマンドを利用してパッケージをインストールします。
+virtualenvの仮想環境が動作している状態で、`pip` コマンドを利用してパッケージをインストールします。
 
 ```
 pip install -r requirements.txt #必要なパッケージをインストールします。
